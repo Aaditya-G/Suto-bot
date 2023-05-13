@@ -1,0 +1,29 @@
+{
+  "name": "suto-bot",
+  "version": "1.0.0",
+  "description": "Suto is a slack bot , it's very sweet and will listen to you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aaditya-G/Suto-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aaditya-G/Suto-bot/issues"
+  },
+  "homepage": "https://github.com/Aaditya-G/Suto-bot#readme",
+  "devDependencies": {
+    "@types/node": "^20.1.1"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.13.1",
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1"
+  }
+}
